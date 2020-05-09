@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>U2720QM-test</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>
+    <img src="./images/twitter-kemar74.jfif" alt="https://mobile.twitter.com/kemar74/status/1258888203593035777/photo/1">
+  </main>
+  <ul class="blocks">
+    <li style="background-color: #333;"></li>
+    <li style="background-color: #666;"></li>
+    <li style="background-color: #AAA;"></li>
+    <li style="background-color: #EEE;"></li>
+  </ul>
+  <ul class="toolbar">
+    <li onclick="setBgc('#FFF')">白色</li>
+    <li onclick="setBgc('#000')">黑色</li>
+    <li onclick="setBgc('#1D1D1D')">深灰</li>
+    <li onclick="setBgc('#15202B')">深蓝</li>
+  </ul>
+  <script>
+    function setBgc(color) {
+      document.body.style.backgroundColor = color;
+    }
+  </script>
+</body>
+</html>
